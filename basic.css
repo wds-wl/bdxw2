@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #dedede;
+	width: 100%;
+}
+
+#header{
+	width: 100%;
+	border: 1px solid #000;
+	background: #333333 url(images/logo.png) no-repeat left center;
+	overflow: hidden;
+}
+
+#header ul li{
+	margin: 10px;
+	float: right;
+}
+#header ul li a{
+	color: #dedede;
+	text-decoration: none;
+}
+.text_color{
+	color: #605d56;
+}
+.content{
+	width: 90%;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 3px 3px 3px #868686; 
+	background-color: #fff;
+}
+
+.content ul li{
+	list-style: none;
+}
+.content .img_border{
+	width: 345px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #868686;
+}
+
+.content table{
+	width: 80%;
+	border: solid #868686;
+	border-width: 1px 0 0 1px;
+	cellspacing: 0;
+}
+
+.content td, th{
+	border: solid #868686;
+	border-width: 0 1px 1px 0;
+}
+.content th{
+	background-color: #333;
+	color: #fff;
+}
+.content .sum{
+	background-color: #dedede;
+}
+
+/*------from goes------*/
+
+
+.content form{
+	padding-left: 20%;
+}
+// .content .user{
+// 	width: 40%;
+// 	margin: 0 40% 0 20%;
+// 	float: right;
+// }
+.content form p{
+	padding-left: 7em;
+	color: #868686;
+}
+.content form label{
+	cursor: pointer;
+}
+input{
+	width: 20em;
+}
+
+input.radio, input.checkbox{
+	width: auto;
+}
+label {
+	vertical-align：top;
+}
+#submitBut{
+	height: 40px;
+	background-color: #3355d0;
+	border: none;
+	border-radius: .2em;
+	color: #fff;
+	font-size: 1.5em;
+
+}
+
+/*---from end---*/
+
+footer{
+	width: 100%;
+	height: 50px;
+	background-color: #333;
+	position: relative;
+}
+footer p{
+	width: 5em;
+	position: absolute;
+	top: .1em;
+	left: 50%;
+	color: #fff;
+}
